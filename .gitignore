@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node / Vite dependencies
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.env.local
+.env.*.local
+
+# Large Model Weights & Checkpoints (Keep repository lightweight for GitHub)
+models/
+models/**/*.bin
+models/**/*.safetensors
+models/**/*.model
+models/**/model.bin
+models/**/pytorch_model.bin
+models/**/model.safetensors
+models/**/sentencepiece.bpe.model
+
+# Logs & Temporary files
+*.log
+.DS_Store
+Thumbs.db
